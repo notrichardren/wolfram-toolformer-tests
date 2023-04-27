@@ -1,0 +1,1 @@
+{"problem": "Determine the remainder of 54 (mod 6).", "level": "Level 1", "type": "Number Theory", "solution": "$54 = 9 \\cdot 6 + 0 \\Rightarrow 54 \\equiv \\boxed{0} \\pmod{6}$.", "wolframquery": "\n\nQuery: 54 mod 6", "wolframoutput": "hit/54 mod 6", "gptanswer": "\n\nAnswer: $\\boxed{0}$", "boxed": "boxed"}
