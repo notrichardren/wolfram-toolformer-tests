@@ -1,0 +1,1 @@
+{"problem": "Find the modulo 4 residue of $17 \\cdot 18$.", "level": "Level 1", "type": "Number Theory", "solution": "$17 \\cdot 18 \\equiv 1 \\cdot 2 \\equiv \\boxed{2} \\pmod{4}$.", "wolframquery": "\n\nQuery: 17*18 mod 4", "wolframoutput": "hit:306 mod 4", "gptanswer": "\n\n\\boxed{2}", "boxed": "boxed"}

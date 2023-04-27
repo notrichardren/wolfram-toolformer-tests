@@ -1,0 +1,1 @@
+{"problem": "Find the modulo 4 residue of $17 \\cdot 18$.", "level": "Level 1", "type": "Number Theory", "solution": "$17 \\cdot 18 \\equiv 1 \\cdot 2 \\equiv \\boxed{2} \\pmod{4}$.", "gptanswer": " Since $17 \\cdot 18 = 342$, we have that $17 \\cdot (4^2) = 342$. Thus, $17 \\cdot 4^2 = \\boxed{342}$.", "boxed": "boxed"}

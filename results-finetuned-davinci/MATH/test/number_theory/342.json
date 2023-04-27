@@ -1,0 +1,1 @@
+{"problem": "Determine the remainder of 54 (mod 6).", "level": "Level 1", "type": "Number Theory", "solution": "$54 = 9 \\cdot 6 + 0 \\Rightarrow 54 \\equiv \\boxed{0} \\pmod{6}$.", "gptanswer": " Since $54=2^4+2^3+2^2+2^1$, we have that $54\\equiv 2^4\\equiv 2^0\\equiv 1\\pmod{6}$. Therefore, the remainder is $\\boxed{1}$.", "boxed": "boxed"}

@@ -1,0 +1,1 @@
+{"problem": "Solve for $k$ in the equation $2k+5 = 13$.", "level": "Level 1", "type": "Prealgebra", "solution": "Subtracting 5 from both sides gives $2k = 8$ and dividing by 2 gives $k = \\boxed{4}$.", "wolframquery": "\n\nQuery: Solve 2k+5=13 for k", "wolframoutput": "hit/(2 k + 5) = 13 k", "gptanswer": "\n\nAnswer: $\\boxed{k = 8}$", "boxed": "boxed"}
