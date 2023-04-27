@@ -5,9 +5,4 @@ If you'd like to replicate our results, get your OpenAI & Wolfram API Keys and p
 
 # Citation for MATH Dataset
 
-@article{hendrycksmath2021,
-  title={Measuring Mathematical Problem Solving With the MATH Dataset},
-  author={Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt},
-  journal={arXiv preprint arXiv:2103.03874},
-  year={2021}
-}
+[Hendrycks et al., 2021] Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. "Measuring Mathematical Problem Solving With the MATH Dataset." arXiv preprint arXiv:2103.03874 (2021).
