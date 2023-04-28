@@ -6,7 +6,7 @@ Project by Richard Ren & Clara Marty.
 
 # File structure explanation
 
-## Prompts and Keys
+## Prompts and keys
 
 **keys.json** -- if you'd like to replicate our results, get your OpenAI & Wolfram API Keys and place them in keys.json.
 
