@@ -2,8 +2,6 @@
 
 A exploratory project to test out GPT's math ability when a) fine-tuned and b) augmented with the Wolfram Alpha API.
 
-Project by Richard Ren & Clara Marty.
-
 # File structure explanation
 
 ## Prompts and keys
