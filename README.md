@@ -14,13 +14,22 @@ Project by Richard Ren & Clara Marty.
 
 ## Testing and training dataset
 
-**/data** -- original MATH dataset by Hendrycks et al. (2021).
+**/data**
+- original MATH dataset by Hendrycks et al. (2021).
 
-**/test** -- modified "test set" of 210 data points; ten were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the test set. &rarr; create-test.ipynb creates this folder.
+**/test** 
+- modified "test set" of 210 data points
+- ten were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the test set.
+- create-test.ipynb creates this folder.
 
-**/train-finetuned-davinci** -- modified "train set" of 420 data points; twenty were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the train set. &rarr; create-train.ipynb creates this folder.
+**/train-finetuned-davinci**
+- modified "train set" of 420 data points
+- twenty were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the train set.
+- create-train.ipynb creates this folder.
 
-**train-finetuned-davinci.jsonl** -- train set compiled into a .jsonl file with OpenAI token requirements; filed used fine-tune the OpenAI model. &rarr; create-jsonl.ipynb creates this file.
+**train-finetuned-davinci.jsonl**
+- train set compiled into a .jsonl file with OpenAI token requirements; used to fine-tune the OpenAI model
+- create-jsonl.ipynb creates this file.
 
 ## Creating, training, & testing individual models
 
