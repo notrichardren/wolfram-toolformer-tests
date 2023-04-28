@@ -16,11 +16,11 @@ Project by Richard Ren & Clara Marty.
 
 **/data** -- original MATH dataset by Hendrycks et al. (2021).
 
-**/test** -- modified "test set", a subset of the original MATH test dataset. Contains 210 data points; ten were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the test set. --> **create-test.ipynb** creates this folder.
+**/test** -- modified "test set" of 210 data points; ten were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the test set. &rarr; create-test.ipynb creates this folder.
 
-**/train-finetuned-davinci** -- modified "train set", a subset of the original MATH train dataset. Used to finetune davinci. Contains 420 data points; twenty were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the train set. --> **create-train.ipynb** creates this folder.
+**/train-finetuned-davinci** -- modified "train set" of 420 data points; twenty were randomly selected per category (across all seven categories) and levels (out of levels 1-3) to create the train set. &rarr; create-train.ipynb creates this folder.
 
-**train-finetuned-davinci.jsonl** -- train set, compiled into a .jsonl file with OpenAI token requirements so it can be used to fine-tune the OpenAI model. --> **create-jsonl.ipynb** creates this folder, referencing files in /train-finetuned-davinci.
+**train-finetuned-davinci.jsonl** -- train set compiled into a .jsonl file with OpenAI token requirements; filed used fine-tune the OpenAI model. &rarr; create-jsonl.ipynb creates this file.
 
 ## Creating, training, & testing individual models
 
@@ -31,29 +31,29 @@ The ```results-{model_name}.ipynb``` notebooks run the model on the ```/test``` 
 **baseline-davinci:**
 - model: GPT-3-DaVinci
 - prompt: "no-wolfram" field in prompts.json
-- results-baseline-davinci.ipynb: run on \test &rarr; save \results-baseline-davinci
+- results-baseline-davinci.ipynb: runs on \test &rarr; save \results-baseline-davinci
 
 **baseline-turbo:**
 - model: ChatGPT-3.5-Turbo
 - prompt: "no-wolfram" field in prompts.json
-- results-baseline-turbo.ipynb: run on \test &rarr; save \results-baseline-turbo
+- results-baseline-turbo.ipynb: runs on \test &rarr; save \results-baseline-turbo
 
 **finetuned-davinci:**
 - GPT-3-DaVinci, fine-tuned
 - prompt: "no-wolfram" field in prompts.json
 - results-finetuned-davinci.ipynb:
-    - runs the fine-tuning process using train-finetuned-davinci.jsonl file (will have to manually put in command prompt lines and OpenAI key)
-    - run on \test &rarr; save \results-finetuned-davinci
+    - runs fine-tuning process using train-finetuned-davinci.jsonl file (will have to manually write command prompt lines and OpenAI key, if replicating)
+    - runs on \test &rarr; save \results-finetuned-davinci
 
 **wolfram-davinci:**
 - GPT-3-DaVinci, augmented with Wolfram's API in a two-step prompting process
 - prompts: "wolframpt1" and "wolframpt2" fields in prompts.json
-- results-wolfram-davinci.ipynb: run on \test &rarr; save \results-wolfram-davinci
+- results-wolfram-davinci.ipynb: runs on \test &rarr; save \results-wolfram-davinci
 
 **wolfram-turbo:**
 - ChatGPT-3.5-Turbo, augmented with Wolfram's API in a two-step prompting process
 - prompts: "wolframpt1" and "wolframpt2" fields in prompts.json
-- results-wolfram-turbo.ipynb: run on \test &rarr; save \results-wolfram-turbo
+- results-wolfram-turbo.ipynb: runs on \test &rarr; save \results-wolfram-turbo
 
 ## Analyzing Results
 
