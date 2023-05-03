@@ -2,6 +2,20 @@
 
 A exploratory project to test out GPT's math ability when a) fine-tuned and b) augmented with the Wolfram Alpha API.
 
+# Project Overview
+
+**Methodology overview:** Description of techniques tested (baseline, fine-tuning, Wolfram API) across OpenAI models (GPT-3-DaVinci, GPT-3.5-Turbo):
+![Figure 1](/figures/fig1.png)
+
+
+
+**Performance on test set of each model** by (a) problem category and (b) problem difficulty level of the following models: baseline (davinci, turbo), fine-tuned (davinci), and Wolfram-augmented (davinci, turbo):
+![Figure 2](/figures/fig2.png)
+
+
+**Error analysis:** (a) proportion of answers boxed across all five models tested, (b) proportion of successful Wolfram Alpha API queries across the Wolfram models tested.
+![Figure 3](/figures/fig3.png)
+
 # File structure explanation
 
 ## Prompts and keys
@@ -69,6 +83,8 @@ The ```results-{model_name}.ipynb``` notebooks run the model on the ```/test``` 
 - Proportion of answers boxed checker, to see how well the model followed instructions.
 - Proportion of results which had a successful Wolfram Alpha call checker.
 - Performance comparisons between baseline-davinci, baseline-turbo, fine-tuned davinci, wolfram-davinci, wolfram-turbo, wolfram-finetuned-davinci -- broken down by both difficulty levels and problem categories.
+
+**/figures** has all the figures shown above.
 
 # Citation for MATH Dataset
 
