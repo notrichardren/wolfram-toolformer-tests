@@ -1,8 +1,6 @@
-# wolfram-toolformer
+# Project Overview
 
 A exploratory project to test out GPT's math ability when a) fine-tuned and b) augmented with the Wolfram Alpha API.
-
-# Project Overview
 
 **Methodology overview:** Description of techniques tested (baseline, fine-tuning, Wolfram API) across OpenAI models (GPT-3-DaVinci, GPT-3.5-Turbo):
 ![Figure 1](/figures/fig1.png)
