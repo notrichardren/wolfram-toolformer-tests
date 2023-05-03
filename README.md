@@ -2,7 +2,7 @@
 
 A exploratory project to test out GPT's math ability when a) fine-tuned and b) augmented with the Wolfram Alpha API.
 
-**Methodology overview:** Description of techniques tested (baseline, fine-tuning, Wolfram API) across OpenAI models (GPT-3-DaVinci, GPT-3.5-Turbo):
+**Methodology overview** Description of techniques tested (baseline, fine-tuning, Wolfram API) across OpenAI models (GPT-3-DaVinci, GPT-3.5-Turbo):
 ![Figure 1](/figures/fig1.png)
 
 
@@ -11,7 +11,7 @@ A exploratory project to test out GPT's math ability when a) fine-tuned and b) a
 ![Figure 2](/figures/fig2.png)
 
 
-**Error analysis:** (a) proportion of answers boxed across all five models tested, (b) proportion of successful Wolfram Alpha API queries across the Wolfram models tested.
+**Error analysis** (a) proportion of answers boxed across all five models tested, (b) proportion of successful Wolfram Alpha API queries across the Wolfram models tested:
 ![Figure 3](/figures/fig3.png)
 
 # File structure explanation
