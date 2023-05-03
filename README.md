@@ -1,4 +1,4 @@
-# Project Overview
+# Project overview
 
 A exploratory project to test out GPT's math ability when a) fine-tuned and b) augmented with the Wolfram Alpha API.
 
